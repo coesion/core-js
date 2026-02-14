@@ -9,18 +9,16 @@
         "url": "https://github.com/coesion/core-js.git"
     },
     "type": "commonjs",
-    "main": "index.js",
+    "main": "core.js",
     "exports": {
-        ".": "./index.js",
+        ".": "./core.js",
         "./bundle": "./core.js"
     },
     "engines": {
         "node": ">=22"
     },
     "files": [
-        "index.js",
         "core.js",
-        "src",
         "README.md",
         "LICENSE.md",
         "CHANGELOG.md"

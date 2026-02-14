@@ -20,5 +20,5 @@ Response.send();
 ## Notes
 
 - This package is generated from the factory repository.
-- Runtime entrypoints are `index.js` and `core.js`.
-- Source-only directories like tests and scripts are excluded.
+- Runtime entrypoint is `core.js` (single-file minimized bundle).
+- Source-only directories like src, tests, and scripts are excluded.
